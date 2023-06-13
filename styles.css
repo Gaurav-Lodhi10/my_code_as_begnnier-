@@ -1,0 +1,171 @@
+/* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* 
+.container {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid blue;
+    border-radius: 20px;
+    width: 233px;
+    box-sizing: border-box;
+} */
+
+
+/* .container {
+    border: 3px solid red;
+    width: 50%;
+    margin: auto;
+    font-family: 'cursive';
+    background-color: rgb(241, 155, 223);
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.items {
+    border: 3px solid rgb(94, 12, 195);
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: rgb(190, 177, 206);
+}
+
+#fruits {
+    float: left;
+    width: 49%;
+}
+
+#computer {
+    float: right;
+    width: 49%;
+}
+
+#stationary {
+    /* float: left; */
+
+
+/* overflow: hidden; */
+
+
+/* } */
+
+
+/* .container {
+    padding: 34px;
+    margin: 34px auto;
+    background-color: rgb(87, 248, 237);
+    width: 666px;
+    border: 3px solid rgb(248, 87, 87);
+}
+
+.btn {
+    background-color: rgb(248, 87, 87);
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    color: rgb(203, 168, 200);
+    margin: 6px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgb(203, 168, 200); */
+
+
+/* }
+/*
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+} */
+
+.nav-bar {}
+
+.nav-bar ul {
+    background-color: rgb(168, 85, 165);
+    overflow: auto;
+    border: 2px solid rgb(39, 30, 201);
+    border-radius: 40px;
+    /* filter: blur(2px); */
+    /* ! for clearing float */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orangered;
+    /* filter: blur(2px); */
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px 10px;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'cursive';
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+}
+
+.search-box {
+    float: right;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: 'cursive';
+    font-weight: bold;
+    text-transform: lowercase;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(39, 30, 201);
+    border-radius: 10px;
+}
+
+.search-box button {
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: 'cursive';
+    font-weight: bold;
+    text-transform: lowercase;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(220, 92, 63);
+    color: white;
+}

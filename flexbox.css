@@ -1,0 +1,116 @@
+    /* body {
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    display: block;
+    margin-left: 20px;
+}
+
+span {
+    display: inline-block;
+    height: 10px;
+    width: 32.1%;
+}
+
+.line #linepart1 {
+    background-color: aqua;
+}
+
+.line #linepart2 {
+    background-color: black;
+}
+
+.line #linepart3 {
+    background-color: red;
+}
+
+.bar {
+    display: block;
+    height: 100px;
+    color: white;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(151, 44, 44);
+    margin-top: -18px;
+}
+
+header h1 {
+    padding: 50px 20px 10px;
+}
+
+.container {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box {
+    display: inline-block;
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    border-radius: 7px;
+} */
+    /* !Path: flexbox.css */
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        height: 544px;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+        /*!flex contanier container property */
+        /* flex-direction: column; 
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;*/
+        /* flex-wrap: wrap; */
+        /* overflow: hidden; */
+        justify-content: center;
+        align-items: center;
+        /* align-items: flex-end; 
+        align-items: flex-start; */
+        /* align-items: self-start; */
+        /* align-content: stretch; */
+    }
+    /* .item {
+        /* !items flex */
+    /* width: 200px;
+        background-color: tomato;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 3px;
+        height: 200px;
+    }
+    
+    #item-1 {
+        /* order:2; */
+    /* flex-grow: 3; */
+    /* align-self: center; */
+    /* } */
+    /* #item-2 {
+        /* flex-grow: 2; 
+        flex-basis: 320px;
+        align-self: center;
+    }
+     
+    #item-3 {
+        /* flex-grow: 1; 
+        align-self: flex-end;
+    } */

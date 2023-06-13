@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+}
+
+.box {
+    border: 3px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+    font-family: 'cursive';
+    background-color: rgb(241, 155, 223);
+}
+
+#box1 {
+    position: relative;
+    top: 30vh;
+    left: 50vw;
+}
+
+#box3 {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 45%;
+    bottom: 50%;
+}
